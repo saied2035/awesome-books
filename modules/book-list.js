@@ -33,4 +33,3 @@ export default class BookList {
   }
 }
 
-const listOfBooks = new BookList();
