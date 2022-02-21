@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  border: 2px solid black;
+  padding: 0 2.5%;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+nav {
+  margin-left: auto;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#nav-list > li:nth-child(2) {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  padding: 0 8px;
+  margin: 0 10px;
+}
+
+#date {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 2.5%;
+}
