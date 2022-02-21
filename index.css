@@ -39,6 +39,7 @@ nav {
   font-weight: bold;
   padding-right: 2.5%;
 }
+
 .booklist {
   display: flex;
   flex-direction: column;
@@ -47,13 +48,15 @@ nav {
   max-height: 370px;
   overflow-y: auto;
   margin: auto;
+  padding: 0;
 }
+
 h2 {
   text-align: center;
 }
+
 hr {
   margin-top: 20px;
-  width: 15%;
   height: 2px;
   background: black;
 }
@@ -65,30 +68,49 @@ hr {
   padding-left: 1em;
   padding-right: 1em;
   border: 1px solid gray;
+  margin: 0;
 }
+
 .book-item:nth-child(odd) {
-  background: #E7E9EB;
+  background: #e7e9eb;
 }
+
 .book-item:nth-child(even) {
   background: #fff;
 }
+
 .remove {
   align-self: center;
   margin-left: auto;
 }
 
-.title {
-  margin-right: 5px;
+.add_book {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.book_input {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.add {
+  display: block;
+  margin-left: auto;
+}
+
+.author {
+  padding-left: 0.25rem;
 }
 
 footer {
-    border: 2px solid black;
-    width: 90%;
-    padding: 5px 2.5%;
-    position: fixed;
-    bottom: 4px;
-    right: 2.5%;
-    left: 2.5%;
+  border: 2px solid black;
+  width: 90%;
+  padding: 5px 2.5%;
+  position: fixed;
+  bottom: 4px;
+  right: 2.5%;
+  left: 2.5%;
 }
 
 .contact {
@@ -100,5 +122,5 @@ footer {
   margin-top: 20px;
 }
 
-.dn {display: none;}
-.blue {color: blue;}
+.dn { display: none; }
+.blue { color: blue; }

@@ -5,10 +5,8 @@ export default class BookList {
 
   addBook(title = '', author = '') {
     const list = document.querySelector('.booklist');
-    list.style.padding = '0';
     const li = document.createElement('li');
     li.className = 'book-item';
-    li.style.margin = '0';
     const bookTitle = document.createElement('p');
     bookTitle.className = 'title';
     bookTitle.innerText = `"${title}" by`;
@@ -17,6 +15,7 @@ export default class BookList {
     bookAuthor.innerText = author;
     const removeBtn = document.createElement('button');
     removeBtn.className = 'remove';
+    removeBtn.type = 'button';
     removeBtn.innerText = 'Remove';
     li.appendChild(bookTitle);
     li.appendChild(bookAuthor);
@@ -32,4 +31,3 @@ export default class BookList {
     window.localStorage.setItem('bookList', JSON.stringify(this.bookList));
   }
 }
-
