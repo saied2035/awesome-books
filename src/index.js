@@ -1,5 +1,6 @@
 /* eslint-disable linebreak-style */
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+import './index.css'
+import { DateTime } from 'luxon';
 import BookList from './modules/BookList.js';
 import { bookAdd, bookRemove, displayWantedSection } from './modules/events.js';
 import { showBookList } from './modules/functions.js';
