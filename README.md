@@ -42,9 +42,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Saied Gaffer**
 
-- GitHub: [@Saied2035](https://github.com/AckonSamuel)
-- Twitter: [@SaiedGaffer](https://twitter.com/AckonSamuel)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-ackon-882717190/)
+- GitHub: [@Saied2035](https://github.com/saied2035)
+- Twitter: [@SaiedGaffer](https://twitter.com/SaiedGaffer)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/saiedgaffer/)
 
 ## 🤝 Contributing
 
